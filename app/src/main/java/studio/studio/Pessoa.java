@@ -9,6 +9,7 @@ public class Pessoa implements Serializable{
 
     private String nome;
     private int idade;
+    private String cpf;
 
 
     public Pessoa(){}
@@ -28,5 +29,13 @@ public class Pessoa implements Serializable{
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
 }
